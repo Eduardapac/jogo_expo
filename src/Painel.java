@@ -15,7 +15,7 @@ public class Painel extends JPanel implements ActionListener {
         cobra = new Cobra();
         spawnFood();
 
-        Timer timer = new Timer(100, this);
+        Timer timer = new Timer(95, this);
         timer.start();
 
         setPreferredSize(new Dimension(600, 400));
